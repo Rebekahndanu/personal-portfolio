@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>My Website</title>
     </head>
     <body>
-        
+        <div> 
+            <nav class="navbar">
+                <h3 class="logo">Rebe<span>kah</span></h3>
+                <ul>
+                    <li><a href="#home">Home</li>
+                    <li><a href="#about">About Me</li>
+                    <li><a href="#education">Education</li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="./CV Rebekah Kithyoma #1 (1).pdf" download="./CV Rebekah Kithyoma #1 (1).pdf">
+                <button type="button">Download CV</button>
+                </a>
+            </nav>
+        </div>
+        <section id="home">
+            
+            <h1 class="heading">Hi, I am Rebekah Ndanu</h1>
+            <h2 class="heading">I am a <span>Software Engineer</span></h2>
+            <p>Welcome.</p>
+        </section>
+        <section id="about">
+            <h1 class="heading">About Me</h1>
+            <div class="about">
+                <img src="./20200722202751207.jpg" alt="Rebekah profile picture">
+                <div class="name">
+                    <h3>My name is Rebekah Ndanu,</h3>
+                    <p>A individual with a keen interest in innovation and technology. As i have progressed in my career in tech, my love or programming has only increased. I think technology has the ability to change the world and provide solutions to difficult issues. I have worked at google and netflix for a few years and i am currently working at Tesla as a senior software engineer.</p>
+            </div>
+
+            </div>
+        </section>
+        <section id="education">
+            <h1 class="heading">Education</h1>
+            <div class="columns">
+                <div class="box">
+                    <h2>Bahelors Degree in Computer Science</h2>
+                    <p>Did my bachelor's degree in Massachusetts Institute of Technology between 2013-2016.</p>
+                </div>
+                <div class="box">
+                    <h2>Masters in Software Engineering</h2>
+                    <p>I proceeded to do my postgraduate in the same institution till 2018.</p>
+                </div>
+                <div class="box">
+                    <h2>P.H.D in Sofware Engineering</h2>
+                    <p>In the year 2021 I graduated with my doctorate from Massachusetts Institute of Technology.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="services">
+            <h1 class="heading">Services</h1>
+            <div class="columns">
+                <div class="box">
+                    <h2>Software Development</h2>
+                    <p>I design and build custom software solutions according to the clients needs. This includes mobile applications and web applications </p>
+                </div>
+                <div class="box">
+                    <h2>Maintainance</h2>
+                    <p>I provide updates and maintain software for clients to ensure the systems remain functional, secure and up to date.</p>
+                </div>
+                <div class="box">
+                    <h2>API development and integration</h2>
+                    <p>I develop Application Programming Interfaces for my clients for seamless integration between different software systems.</p>
+                </div>
+                <div class="box">
+                    <h2>Training</h2>
+                    <p>I ofer training sessions to educate professionals on new technologies and software tools, how to use them</p>
+                </div>
+                <div class="box">
+                    <h2>Technology Consulting</h2>
+                    <p>I provide guidance and expertise to organisations on technology that would serve them appropriately.</p>
+                </div> 
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="heading">Contact Me</h1>
+            <div>
+                <div class="icons">
+                    <ul>
+                        <li><i class="fa-solid fa-x"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><a href="https://www.linkedin.com/rebekahndanu" target="_blank"></a><i class="fa-brands fa-github"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <form action="" class="form">
+                        <input type="text" name="name" class="input" placeholder="Enter your name">
+                        <input type="email" name="email" class="input" placeholder="Enter your email">
+                        <textarea name="message" id="message" class="input" cols="70" rows="20" placeholder="Enter your message"></textarea>
+                        <input type="submit" value="submit" id="submit">
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact information;</h2>
+                    <p>Email: rebekahndanu@gmail.com</p>
+                    <p>Phone: +254722777886</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="copyright">
+                <p>&copy; 2023 Rebekah Ndanu. All Rights Reserved.</p>
+            </div>
+        </footer>
     </body>
 </html>
