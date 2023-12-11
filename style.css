@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.header
 .navbar {
     display: flex;
     align-items: center;
@@ -126,6 +127,35 @@ button:hover{
     text-align: center;
     padding-bottom: 10px;
 }
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    height: auto;
+    padding-top: 20px;
+}
+#skills h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.skill {
+    margin-bottom: 30px;
+}
+#skills h3 {
+   text-align: center;
+   padding-left: 20px;
+}
+.skill ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.skill ul li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
 #services{
     display: flex;
     flex-direction: column;
@@ -230,5 +260,3 @@ footer{
     color: white;
     margin: 0;
 }
-
-
